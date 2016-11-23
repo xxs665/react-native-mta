@@ -7,13 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #import "RCTBridgeModule.h"
 #import "RCTBridge.h"
 #import "RCTEventEmitter.h"
 
 
-@interface RCTMta : : NSObject <RCTBridgeModule>
+@interface RCTMta : NSObject <RCTBridgeModule>
 
 @property (nonatomic, strong) RCTBridge *bridge;
 

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RCTMta.xcodeproj">
+      location = "self:/Users/kiddxu/Desktop/code/react-native-audio/ios/RNMta.xcodeproj">
    </FileRef>
 </Workspace>

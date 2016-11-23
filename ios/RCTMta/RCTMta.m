@@ -12,7 +12,6 @@
 #import "RCTConvert.h"
 #import "RCTEventDispatcher.h"
 #import "RCTEventEmitter.h"
-#import "AppInitialize.h"
 
 #import "MTA.h"
 #import "MTAConfig.h"

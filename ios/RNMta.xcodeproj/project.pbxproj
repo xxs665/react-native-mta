@@ -7,138 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF1EC2001DE590D900908CE0 /* RCTMta.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC1FF1DE590D900908CE0 /* RCTMta.m */; };
-		DF1EC2011DE590D900908CE0 /* RCTMta.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF1EC1FE1DE590D900908CE0 /* RCTMta.h */; };
-		DF1EC20B1DE5913C00908CE0 /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC20A1DE5913C00908CE0 /* libmtasdk.a */; };
+		DF1EC2341DE5A3F200908CE0 /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC22F1DE5A3F200908CE0 /* libmtasdk.a */; };
+		DF1EC2351DE5A3F200908CE0 /* RCTMta.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2331DE5A3F200908CE0 /* RCTMta.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DF1EC1F91DE590D900908CE0 /* CopyFiles */ = {
+		42F559B81CFC90C400DC3F84 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DF1EC2011DE590D900908CE0 /* RCTMta.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF1EC1FB1DE590D900908CE0 /* libRCTMta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTMta.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF1EC1FE1DE590D900908CE0 /* RCTMta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMta.h; sourceTree = "<group>"; };
-		DF1EC1FF1DE590D900908CE0 /* RCTMta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTMta.m; sourceTree = "<group>"; };
-		DF1EC2071DE5913600908CE0 /* MTA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTA.h; sourceTree = "<group>"; };
-		DF1EC2081DE5913600908CE0 /* MTAConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAConfig.h; sourceTree = "<group>"; };
-		DF1EC20A1DE5913C00908CE0 /* libmtasdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmtasdk.a; sourceTree = "<group>"; };
+		42F559BA1CFC90C400DC3F84 /* libRNMta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMta.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1EC22F1DE5A3F200908CE0 /* libmtasdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmtasdk.a; path = RCTMta/libmtasdk.a; sourceTree = "<group>"; };
+		DF1EC2301DE5A3F200908CE0 /* MTA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = RCTMta/MTA.h; sourceTree = "<group>"; };
+		DF1EC2311DE5A3F200908CE0 /* MTAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = RCTMta/MTAConfig.h; sourceTree = "<group>"; };
+		DF1EC2321DE5A3F200908CE0 /* RCTMta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTMta.h; path = RCTMta/RCTMta.h; sourceTree = "<group>"; };
+		DF1EC2331DE5A3F200908CE0 /* RCTMta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTMta.m; path = RCTMta/RCTMta.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF1EC1F81DE590D900908CE0 /* Frameworks */ = {
+		42F559B71CFC90C400DC3F84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1EC20B1DE5913C00908CE0 /* libmtasdk.a in Frameworks */,
+				DF1EC2341DE5A3F200908CE0 /* libmtasdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF1EC1F21DE590D900908CE0 = {
+		42F559B11CFC90C400DC3F84 = {
 			isa = PBXGroup;
 			children = (
-				DF1EC1FD1DE590D900908CE0 /* RCTMta */,
-				DF1EC1FC1DE590D900908CE0 /* Products */,
+				DF1EC22E1DE5A3D400908CE0 /* RNMta */,
+				42F559BB1CFC90C400DC3F84 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF1EC1FC1DE590D900908CE0 /* Products */ = {
+		42F559BB1CFC90C400DC3F84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF1EC1FB1DE590D900908CE0 /* libRCTMta.a */,
+				42F559BA1CFC90C400DC3F84 /* libRNMta.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF1EC1FD1DE590D900908CE0 /* RCTMta */ = {
+		DF1EC22E1DE5A3D400908CE0 /* RNMta */ = {
 			isa = PBXGroup;
 			children = (
-				DF1EC20A1DE5913C00908CE0 /* libmtasdk.a */,
-				DF1EC2071DE5913600908CE0 /* MTA.h */,
-				DF1EC2081DE5913600908CE0 /* MTAConfig.h */,
-				DF1EC1FE1DE590D900908CE0 /* RCTMta.h */,
-				DF1EC1FF1DE590D900908CE0 /* RCTMta.m */,
+				DF1EC22F1DE5A3F200908CE0 /* libmtasdk.a */,
+				DF1EC2301DE5A3F200908CE0 /* MTA.h */,
+				DF1EC2311DE5A3F200908CE0 /* MTAConfig.h */,
+				DF1EC2321DE5A3F200908CE0 /* RCTMta.h */,
+				DF1EC2331DE5A3F200908CE0 /* RCTMta.m */,
 			);
-			path = RCTMta;
+			name = RNMta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF1EC1FA1DE590D900908CE0 /* RCTMta */ = {
+		42F559B91CFC90C400DC3F84 /* RNMta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF1EC2041DE590D900908CE0 /* Build configuration list for PBXNativeTarget "RCTMta" */;
+			buildConfigurationList = 42F559C31CFC90C400DC3F84 /* Build configuration list for PBXNativeTarget "RNMta" */;
 			buildPhases = (
-				DF1EC1F71DE590D900908CE0 /* Sources */,
-				DF1EC1F81DE590D900908CE0 /* Frameworks */,
-				DF1EC1F91DE590D900908CE0 /* CopyFiles */,
+				42F559B61CFC90C400DC3F84 /* Sources */,
+				42F559B71CFC90C400DC3F84 /* Frameworks */,
+				42F559B81CFC90C400DC3F84 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RCTMta;
-			productName = RCTMta;
-			productReference = DF1EC1FB1DE590D900908CE0 /* libRCTMta.a */;
+			name = RNMta;
+			productName = RNAudio;
+			productReference = 42F559BA1CFC90C400DC3F84 /* libRNMta.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF1EC1F31DE590D900908CE0 /* Project object */ = {
+		42F559B21CFC90C400DC3F84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "xiaosheng xu";
+				ORGANIZATIONNAME = "Joshua Sierles";
 				TargetAttributes = {
-					DF1EC1FA1DE590D900908CE0 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+					42F559B91CFC90C400DC3F84 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = DF1EC1F61DE590D900908CE0 /* Build configuration list for PBXProject "RCTMta" */;
+			buildConfigurationList = 42F559B51CFC90C400DC3F84 /* Build configuration list for PBXProject "RNMta" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF1EC1F21DE590D900908CE0;
-			productRefGroup = DF1EC1FC1DE590D900908CE0 /* Products */;
+			mainGroup = 42F559B11CFC90C400DC3F84;
+			productRefGroup = 42F559BB1CFC90C400DC3F84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF1EC1FA1DE590D900908CE0 /* RCTMta */,
+				42F559B91CFC90C400DC3F84 /* RNMta */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF1EC1F71DE590D900908CE0 /* Sources */ = {
+		42F559B61CFC90C400DC3F84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1EC2001DE590D900908CE0 /* RCTMta.m in Sources */,
+				DF1EC2351DE5A3F200908CE0 /* RCTMta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF1EC2021DE590D900908CE0 /* Debug */ = {
+		42F559C11CFC90C400DC3F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -150,13 +147,12 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -178,14 +174,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		DF1EC2031DE590D900908CE0 /* Release */ = {
+		42F559C21CFC90C400DC3F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,13 +193,12 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -219,16 +214,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DF1EC2051DE590D900908CE0 /* Debug */ = {
+		42F559C41CFC90C400DC3F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RCTMta",
@@ -239,9 +241,15 @@
 			};
 			name = Debug;
 		};
-		DF1EC2061DE590D900908CE0 /* Release */ = {
+		42F559C51CFC90C400DC3F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RCTMta",
@@ -255,24 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF1EC1F61DE590D900908CE0 /* Build configuration list for PBXProject "RCTMta" */ = {
+		42F559B51CFC90C400DC3F84 /* Build configuration list for PBXProject "RNMta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF1EC2021DE590D900908CE0 /* Debug */,
-				DF1EC2031DE590D900908CE0 /* Release */,
+				42F559C11CFC90C400DC3F84 /* Debug */,
+				42F559C21CFC90C400DC3F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF1EC2041DE590D900908CE0 /* Build configuration list for PBXNativeTarget "RCTMta" */ = {
+		42F559C31CFC90C400DC3F84 /* Build configuration list for PBXNativeTarget "RNMta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF1EC2051DE590D900908CE0 /* Debug */,
-				DF1EC2061DE590D900908CE0 /* Release */,
+				42F559C41CFC90C400DC3F84 /* Debug */,
+				42F559C51CFC90C400DC3F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF1EC1F31DE590D900908CE0 /* Project object */;
+	rootObject = 42F559B21CFC90C400DC3F84 /* Project object */;
 }

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF1EC1FA1DE590D900908CE0"
-               BuildableName = "libRCTMta.a"
-               BlueprintName = "RCTMta"
-               ReferencedContainer = "container:RCTMta.xcodeproj">
+               BlueprintIdentifier = "42F559B91CFC90C400DC3F84"
+               BuildableName = "libRNMta.a"
+               BlueprintName = "RNMta"
+               ReferencedContainer = "container:RNMta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF1EC1FA1DE590D900908CE0"
-            BuildableName = "libRCTMta.a"
-            BlueprintName = "RCTMta"
-            ReferencedContainer = "container:RCTMta.xcodeproj">
+            BlueprintIdentifier = "42F559B91CFC90C400DC3F84"
+            BuildableName = "libRNMta.a"
+            BlueprintName = "RNMta"
+            ReferencedContainer = "container:RNMta.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF1EC1FA1DE590D900908CE0"
-            BuildableName = "libRCTMta.a"
-            BlueprintName = "RCTMta"
-            ReferencedContainer = "container:RCTMta.xcodeproj">
+            BlueprintIdentifier = "42F559B91CFC90C400DC3F84"
+            BuildableName = "libRNMta.a"
+            BlueprintName = "RNMta"
+            ReferencedContainer = "container:RNMta.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

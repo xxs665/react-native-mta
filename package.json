@@ -1,6 +1,6 @@
 {
   "name": "react-native-mta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MTA RN调用模块",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xxs665/react-native-mta/issues"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.29"
   },
   "homepage": "https://github.com/xxs665/react-native-mta#readme"
 }
