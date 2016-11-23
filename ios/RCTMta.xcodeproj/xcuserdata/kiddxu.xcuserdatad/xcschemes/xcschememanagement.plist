@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>mta.xcscheme</key>
+		<key>RCTMta.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DF1EC0FB1DE5796300908CE0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DF1EC1141DE5796400908CE0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DF1EC11F1DE5796400908CE0</key>
+		<key>DF1EC1FA1DE590D900908CE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

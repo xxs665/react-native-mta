@@ -1,0 +1,22 @@
+{
+  "name": "react-native-mta",
+  "version": "1.0.0",
+  "description": "MTA RN调用模块",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxs665/react-native-mta.git"
+  },
+  "keywords": [
+    "react-native",
+    "mta"
+  ],
+  "author": "xxs665",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxs665/react-native-mta/issues"
+  },
+  "homepage": "https://github.com/xxs665/react-native-mta#readme"
+}

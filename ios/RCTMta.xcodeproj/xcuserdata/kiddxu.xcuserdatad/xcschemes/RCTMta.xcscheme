@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF1EC0FB1DE5796300908CE0"
-               BuildableName = "mta.app"
-               BlueprintName = "mta"
-               ReferencedContainer = "container:mta.xcodeproj">
+               BlueprintIdentifier = "DF1EC1FA1DE590D900908CE0"
+               BuildableName = "libRCTMta.a"
+               BlueprintName = "RCTMta"
+               ReferencedContainer = "container:RCTMta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,36 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF1EC1141DE5796400908CE0"
-               BuildableName = "mtaTests.xctest"
-               BlueprintName = "mtaTests"
-               ReferencedContainer = "container:mta.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF1EC11F1DE5796400908CE0"
-               BuildableName = "mtaUITests.xctest"
-               BlueprintName = "mtaUITests"
-               ReferencedContainer = "container:mta.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF1EC0FB1DE5796300908CE0"
-            BuildableName = "mta.app"
-            BlueprintName = "mta"
-            ReferencedContainer = "container:mta.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -71,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF1EC0FB1DE5796300908CE0"
-            BuildableName = "mta.app"
-            BlueprintName = "mta"
-            ReferencedContainer = "container:mta.xcodeproj">
+            BlueprintIdentifier = "DF1EC1FA1DE590D900908CE0"
+            BuildableName = "libRCTMta.a"
+            BlueprintName = "RCTMta"
+            ReferencedContainer = "container:RCTMta.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF1EC0FB1DE5796300908CE0"
-            BuildableName = "mta.app"
-            BlueprintName = "mta"
-            ReferencedContainer = "container:mta.xcodeproj">
+            BlueprintIdentifier = "DF1EC1FA1DE590D900908CE0"
+            BuildableName = "libRCTMta.a"
+            BlueprintName = "RCTMta"
+            ReferencedContainer = "container:RCTMta.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
