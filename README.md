@@ -1,6 +1,6 @@
 ## react-native-mta for IOS
 
-`react-native-mta` 静态库提供了 `react-native` 调用 `MTA` 的接口，关于 `MTA` 的介绍和使用说明请看 [mta.qq.com](`mta.qq.com`)
+`react-native-mta` 静态库提供了 `react-native` 调用 `MTA` 的接口，关于 `MTA` 的介绍和使用说明请看 [mta.qq.com](`http://mta.qq.com`)
 
 ### 安装
 
