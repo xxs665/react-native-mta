@@ -14,7 +14,7 @@
 #import "RCTEventEmitter.h"
 
 
-@interface RCTMta : NSObject <RCTBridgeModule>
+@interface RCTMTA : NSObject <RCTBridgeModule>
 
 @property (nonatomic, strong) RCTBridge *bridge;
 

@@ -21,7 +21,7 @@
 #import <AdSupport/AdSupport.h>
 
 
-@implementation RCTMta
+@implementation RCTMTA
 
 
 @synthesize bridge = _bridge;
@@ -34,8 +34,8 @@ RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(startWithAppkey:(NSString *)appkey)
 {
     [MTA startWithAppkey:appkey];
-    NSString *adId = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-    NSLog(@"adid: %@", adId);
+//    NSString *adId = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+//    NSLog(@"adid: %@", adId);
 }
 
 /**
@@ -60,11 +60,11 @@ RCT_EXPORT_METHOD(startWithAppkeyVersion:(NSString*) appkey callback:(RCTRespons
  * 统计制定页面访问情况，在页面开始和结束时分别调用以下方法进行数据上报
  */
 RCT_EXPORT_METHOD(trackPageViewBegin:(NSString*) page){
-    NSLog(@"trackPageViewBegin: %@", page);
+//    NSLog(@"trackPageViewBegin: %@", page);
     [MTA trackPageViewBegin:page];
 }
 RCT_EXPORT_METHOD(trackPageViewEnd:(NSString*) page){
-    NSLog(@"trackPageViewEnd: %@", page);
+//    NSLog(@"trackPageViewEnd: %@", page);
     [MTA trackPageViewEnd:page];
 }
 

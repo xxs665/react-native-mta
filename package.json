@@ -1,10 +1,9 @@
 {
   "name": "react-native-mta",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "MTA RN调用模块",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xxs665/react-native-mta.git"
