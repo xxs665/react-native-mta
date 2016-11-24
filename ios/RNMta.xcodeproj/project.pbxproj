@@ -12,9 +12,12 @@
 		DF1EC3301DE5C7D400908CE0 /* MTA.h in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2DB1DE5AEC400908CE0 /* MTA.h */; };
 		DF1EC3311DE5C7D400908CE0 /* MTAConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2DC1DE5AEC400908CE0 /* MTAConfig.h */; };
 		DF1EC3321DE5C7D400908CE0 /* RCTMTA.h in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2DD1DE5AEC400908CE0 /* RCTMTA.h */; };
-		DF1EC3461DE5C85200908CE0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC3451DE5C85200908CE0 /* libz.tbd */; };
-		DF1EC3481DE5C86500908CE0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC3471DE5C86500908CE0 /* libsqlite3.0.tbd */; };
-		DF1EC34A1DE5C87600908CE0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC3491DE5C87600908CE0 /* SystemConfiguration.framework */; };
+		DF96FF871DE686A500BD7F94 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC3451DE5C85200908CE0 /* libz.tbd */; };
+		DF96FF891DE686AE00BD7F94 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF96FF881DE686AE00BD7F94 /* libsqlite3.tbd */; };
+		DF96FF8A1DE686B300BD7F94 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC3471DE5C86500908CE0 /* libsqlite3.0.tbd */; };
+		DF96FF8B1DE686BA00BD7F94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC3491DE5C87600908CE0 /* SystemConfiguration.framework */; };
+		DF96FF8C1DE686C400BD7F94 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC34B1DE5C88200908CE0 /* CoreTelephony.framework */; };
+		DF96FF8D1DE686CE00BD7F94 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1EC34D1DE5C88B00908CE0 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +44,7 @@
 		DF1EC3491DE5C87600908CE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DF1EC34B1DE5C88200908CE0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		DF1EC34D1DE5C88B00908CE0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DF96FF881DE686AE00BD7F94 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +52,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1EC34A1DE5C87600908CE0 /* SystemConfiguration.framework in Frameworks */,
-				DF1EC3481DE5C86500908CE0 /* libsqlite3.0.tbd in Frameworks */,
-				DF1EC3461DE5C85200908CE0 /* libz.tbd in Frameworks */,
+				DF96FF8D1DE686CE00BD7F94 /* AdSupport.framework in Frameworks */,
+				DF96FF8C1DE686C400BD7F94 /* CoreTelephony.framework in Frameworks */,
+				DF96FF8B1DE686BA00BD7F94 /* SystemConfiguration.framework in Frameworks */,
+				DF96FF8A1DE686B300BD7F94 /* libsqlite3.0.tbd in Frameworks */,
+				DF96FF891DE686AE00BD7F94 /* libsqlite3.tbd in Frameworks */,
+				DF96FF871DE686A500BD7F94 /* libz.tbd in Frameworks */,
 				DF1EC2DF1DE5AEC400908CE0 /* libmtasdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +97,7 @@
 		DF1EC3441DE5C85200908CE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF96FF881DE686AE00BD7F94 /* libsqlite3.tbd */,
 				DF1EC34D1DE5C88B00908CE0 /* AdSupport.framework */,
 				DF1EC34B1DE5C88200908CE0 /* CoreTelephony.framework */,
 				DF1EC3491DE5C87600908CE0 /* SystemConfiguration.framework */,

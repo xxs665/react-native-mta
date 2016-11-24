@@ -1,6 +1,6 @@
 {
   "name": "react-native-mta",
-  "version": "1.0.7",
+  "version": "0.0.4",
   "description": "MTA RN调用模块",
   "main": "index.js",
   "scripts": {},

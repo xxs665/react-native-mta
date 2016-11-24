@@ -12,7 +12,7 @@ import {
 	NativeModules
 } from 'react-native';
 
-const RNMTA = NativeModules.RNMTA;
+const RNMTA = NativeModules.MTA;
 
 
 class MTA {
