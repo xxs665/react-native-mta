@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "RCTBridgeModule.h"
-#import "RCTBridge.h"
-#import "RCTEventEmitter.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTBridge.h>
+#import <React/RCTEventEmitter.h>
 
 
 @interface RCTMTA : NSObject <RCTBridgeModule>
