@@ -6,7 +6,7 @@
 //  Copyright © 2016年 xiaosheng xu. All rights reserved.
 //
 
-#import "RCTMta.h"
+#import "RCTMTA.h"
 
 
 #import <React/RCTConvert.h>
