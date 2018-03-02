@@ -6,12 +6,12 @@
 //  Copyright © 2016年 xiaosheng xu. All rights reserved.
 //
 
-#import "RCTMta.h"
+#import "RCTMTA.h"
 
 
-#import "RCTConvert.h"
-#import "RCTEventDispatcher.h"
-#import "RCTEventEmitter.h"
+#import <React/RCTConvert.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTEventEmitter.h>
 
 #import "MTA.h"
 #import "MTAConfig.h"

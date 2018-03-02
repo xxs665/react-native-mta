@@ -1,0 +1,46 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        manifestPlaceholders = [
+                MTA_APPKEY:"注册应用的appkey",
+                MTA_CHANNEL:"渠道名称"
+        ]
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.facebook.react:react-native:+'
+    // mta包稳定版和测试版本二选一，mid包必须要添加 ，可视化埋点根据需要添加
+    //mta 3.3 稳定版
+    compile 'com.qq.mta:mta:3.3.1-release'
+    //mid  jar包 必须添加
+    compile 'com.tencent.mid:mid:3.73-release'
+    //可视化埋点的相关jar包 （根据需要添加），可视化埋点的版本号，和必须和当前MTA的版本号必须匹配使用 需要在配置文件中增加配置，具体请参考 高级功能中可视化埋点的接入。
+    compile 'com.qq.visual:visual:3.3.1-release'
+}
